@@ -15,7 +15,7 @@ const ProblemSection = () => {
 
           </span>
           <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight">Vous payez pour de
-            <br />
+l'attention qui vous échappe dès les premières minutes<br />
             <span className="italic text-gradient-gold">l'attention qui vous échappe</span>
             dès les premières minutes
           </h2>
