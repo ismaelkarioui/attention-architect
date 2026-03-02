@@ -30,16 +30,16 @@ const ProblemSection = () => {
         >
           <p className="text-lg text-secondary-foreground leading-relaxed">
             Chaque euro injecté dans vos pubs vous achète une chance. Quelques secondes d'attention 
-            fracturée. Et qu'est-ce que le prospect trouve en face ? Une vidéo de vente qui ressemble 
-            à une demande de rançon rédigée par un comité.
+            fracturée. Mais si votre VSL ressemble à un script générique vu 1000 fois, vous ne perdez pas 
+            seulement de l'argent. Vous perdez votre autorité avant même d'avoir ouvert la bouche.
           </p>
           
           <div className="space-y-6 border-l border-border pl-8">
             {[
               {
-                stat: "47 €",
-                label: "Coût moyen par clic qualifié dans les niches concurrentielles.",
-                detail: "Ce prospect vous accorde 8 secondes avant de passer au suivant."
+                stat: "Scaling",
+                label: "Le coût par acquisition (CPA) explose dès que le message manque de profondeur.",
+                detail: "Le trafic froid ne pardonne pas la médiocrité. Sans tension narrative, vous achetez du vent."
               },
               {
                 stat: "73%",
@@ -73,7 +73,7 @@ const ProblemSection = () => {
 
           <div className="pt-8">
             <p className="text-xl text-foreground font-serif italic">
-              « Le problème, ce n'est jamais le trafic. C'est ce qui se passe après le clic. »
+              « On ne scale pas un budget publicitaire. On scale la capacité à capturer et maintenir l'attention humaine. »
             </p>
           </div>
         </motion.div>
