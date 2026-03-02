@@ -19,7 +19,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <div className="mb-8">
-              <img src={logoRtc} alt="RTC Copywriting" className="h-24 md:h-28 w-auto" />
+              <img src={logoRtc} alt="RTC Copywriting" className="h-36 w-auto" />
             </div>
             
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-900 leading-[0.9] tracking-tight mb-8">
