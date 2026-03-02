@@ -39,7 +39,7 @@ const HeroSection = () => {
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}>
 
-          <span className="font-mono text-xs text-muted-foreground tracking-wider uppercase">
+          <span className="font-mono text-xs tracking-wider uppercase text-primary">
             Découvrir comment rentabiliser mes pubs ↓
           </span>
         </motion.div>
