@@ -3,7 +3,7 @@ import logoRtc from "@/assets/logo-rtc.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative py-20 lg:min-h-screen flex items-center overflow-hidden">
       {/* Subtle grid background */}
       <div className="absolute inset-0 opacity-[0.04]" style={{
         backgroundImage: 'linear-gradient(hsl(215 50% 20%) 1px, transparent 1px), linear-gradient(90deg, hsl(215 50% 20%) 1px, transparent 1px)',
