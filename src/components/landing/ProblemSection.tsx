@@ -17,7 +17,7 @@ const ProblemSection = () => {
           <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight">
             Vous payez pour de
             <br />
-            <span className="italic text-gradient-gold">l'attention que vous n'obtenez jamais.</span>
+            <span className="italic text-gradient-gold">l'attention qui vous échappe dès les premières minutes.</span>
           </h2>
         </motion.div>
 
@@ -29,9 +29,9 @@ const ProblemSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <p className="text-lg text-secondary-foreground leading-relaxed">
-            Chaque euro injecté dans vos pubs vous achète une chance. Quelques secondes d'attention 
-            fracturée. Mais si votre VSL ressemble à un script générique vu 1000 fois, vous ne perdez pas 
-            seulement de l'argent. Vous perdez votre autorité avant même d'avoir ouvert la bouche.
+            Chaque euro injecté dans vos pubs est comme un billet de loto. Vous gagnez quelques secondes d'une attention 
+            fracturée, mais si votre VSL ressemble à un script générique vu 1000 fois, vous ne perdez pas 
+            seulement de l'argent, vous perdez aussi votre autorité.
           </p>
           
           <div className="space-y-6 border-l border-border pl-8">
@@ -48,8 +48,7 @@ const ProblemSection = () => {
               },
               {
                 stat: "0 €",
-                label: "Le retour sur une vidéo que personne ne regarde.",
-                detail: "Les chiffres ne mentent pas. L'ennui est le mot le plus cher en publicité."
+                label: "Le retour sur investissement d'une vidéo qui ne captive pas l'attention."
               }
             ].map((item, i) => (
               <motion.div 
@@ -73,7 +72,7 @@ const ProblemSection = () => {
 
           <div className="pt-8">
             <p className="text-xl text-foreground font-serif italic">
-              « On ne scale pas un budget publicitaire. On scale la capacité à capturer et maintenir l'attention humaine. »
+              « On ne scale pas un budget publicitaire. On scale la capacité à capturer, à maintenir et à valoriser l'attention humaine. »
             </p>
           </div>
         </motion.div>

@@ -23,14 +23,7 @@ const GuaranteeSection = () => {
 
           <div className="max-w-2xl mx-auto">
             <p className="text-lg text-secondary-foreground leading-relaxed mb-8">
-              Déployez l'architecture. Lancez vos publicités. Si les revenus générés par la VSL 
-              ne couvrent pas l'investissement de 1 650 € HT, je vous rembourse intégralement. 
-              Sans discussion. Un partenaire qui ne produit pas de ROI ne mérite pas d'être payé. 
-              C'est aussi simple que ça.
-            </p>
-            
-            <p className="text-foreground font-medium mb-12">
-              Je porte le risque parce que j'ai fait ça suffisamment de fois pour connaître le résultat.
+              Vous déployez la VSL et lancez vos pubs. Si les revenus générés ne couvrent pas votre investissement de 1 650€ HT sans limite de temps, je vous rembourse intégralement.
             </p>
           </div>
 

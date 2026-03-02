@@ -23,18 +23,13 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-900 leading-[0.9] tracking-tight mb-8">
-              Vos pubs <span className="italic text-gradient-gold">saignent</span> du budget.
-              <br />
-              <span className="text-muted-foreground text-4xl md:text-5xl lg:text-6xl">
-                Vos prospects scrollent sans s'arrêter.
-              </span>
+              Vous <span className="italic text-gradient-gold">cramez votre budget pub</span> pour que vous perdiez des prospects ou qu'ils arrivent même pas qualifiés dans vos appels de closing et flinguent votre taux de conversion ?
             </h1>
             
             <div className="line-gold w-32 mt-12 mb-8" />
             
             <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed">
-              Je bâtis des architectures de VSL qui rendent le départ impossible. 
-              Sans manipulation, ni fausse urgence. Avec une structure narrative chirurgicale.
+              Je bâtis des architectures de VSL qui scotchent leur regard et les qualifient un peu plus chaque minute jusqu'au CTA. Sans manipulation, ni fausse urgence. Avec une structure narrative chirurgicale.
             </p>
           </motion.div>
 
@@ -81,7 +76,7 @@ const HeroSection = () => {
           transition={{ repeat: Infinity, duration: 2 }}>
 
           <span className="font-mono text-xs text-muted-foreground tracking-wider uppercase">
-            Voir l'ingénierie en action ↓
+            Découvrir comment sauver mon budget ↓
           </span>
         </motion.div>
       </div>

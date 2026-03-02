@@ -11,17 +11,10 @@ const CTASection = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">
-            Arrêtez de nourrir l'algorithme
-            <br />
-            <span className="text-gradient-gold italic">avec du contenu mort.</span>
+            Réparons ensemble <span className="text-gradient-gold italic">le goulot d'étranglement</span> de votre stratégie de conversion
           </h2>
           <p className="text-lg text-secondary-foreground max-w-lg leading-relaxed mb-4">
-            Vous avez lu jusqu'ici parce que quelque chose dans votre funnel actuel ne fonctionne pas. 
-            Vous le savez. Votre rapport de dépenses publicitaires vous le confirme chaque mois.
-          </p>
-          <p className="text-foreground max-w-lg">
-            Deux options : continuer à optimiser des audiences pour une vidéo qui ne convertit pas, 
-            ou réparer la vidéo.
+            Deux options : continuer à envoyer des leads froids vers une vidéo qui ne convertit pas, ou réparer la vidéo et relancer la machine.
           </p>
         </motion.div>
 
@@ -33,10 +26,9 @@ const CTASection = () => {
           transition={{ delay: 0.2 }}
         >
           <div className="border border-primary/30 p-10 glow-gold">
-            <h3 className="font-serif text-2xl font-bold mb-4">Réserver un diagnostic de rétention</h3>
+            <h3 className="font-serif text-2xl font-bold mb-4">Réserver un diagnostic rétention (30 min)</h3>
             <p className="text-sm text-secondary-foreground mb-8 leading-relaxed">
-              15 minutes. Pas de pitch. J'analyse votre VSL ou votre funnel actuel, 
-              je vous dis exactement ce qui fait fuir vos conversions, et si je suis le bon fit.
+              Analyse de votre stratégie, de votre VSL et proposition de réécriture des 3 premières minutes optimisée pour la rétention.
             </p>
             
             <a
@@ -49,7 +41,7 @@ const CTASection = () => {
             </a>
             
             <p className="text-xs text-muted-foreground mt-4 text-center">
-              ⚠️ Attention : 2 places restantes pour ce mois. Pas d'engagement. Pas de relance.
+              ⚠️ Attention : 2 places restantes pour cette offre de lancement.
             </p>
           </div>
         </motion.div>

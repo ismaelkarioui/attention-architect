@@ -4,23 +4,23 @@ const SolutionSection = () => {
   const steps = [
     {
       num: "01",
-      title: "Diagnostic de l'Attention Fracturée",
-      desc: "On n'accroche pas un prospect sophistiqué avec une question de curiosité générique. On l'accroche en lui montrant qu'on a diagnostiqué son problème plus précisément que lui. Une incision chirurgicale dans sa réalité immédiate."
+      title: "Diagnostic de l'audience cible",
+      desc: "On n'accroche pas un prospect sophistiqué avec une question de curiosité générique. On l'accroche en lui montrant qu'on a diagnostiqué son problème plus précisément que lui."
     },
     {
       num: "02",
-      title: "Architecture de Rétention Totale",
-      desc: "Chaque seconde de silence ou de remplissage est une porte de sortie. Je construis des structures à haute tension narrative où l'abandon devient une perte de temps pour le spectateur, pas pour vous. Chaque mot mérite le suivant."
+      title: "Architecture de rétention optimale",
+      desc: "Chaque seconde de silence ou de remplissage est une porte de sortie. Je construis des structures à haute tension narrative où l'abandon devient une perte de temps pour le spectateur."
     },
     {
       num: "03",
-      title: "Ingénierie du Moment « Eurêka »",
-      desc: "Votre offre n'est pas présentée — elle est découverte comme la seule solution logique. J'orchestre le moment de bascule psychologique où le prospect a le sentiment que la décision vient de lui. Parce que c'est le cas."
+      title: "Ingénierie du moment « Eurêka »",
+      desc: "Vous ne commencez pas par présenter votre offre, votre prospect réalise d'abord qu'elle est l'aboutissement logique de son cheminement. J'orchestre le moment de bascule psychologique."
     },
     {
       num: "04",
       title: "Dissolution des barrières mentales",
-      desc: "Je ne traite pas les objections : j'empêche leur formation. Chaque doute est désamorcé à l'intérieur du flux narratif pour que l'action finale ressemble à un soulagement, pas à une pression."
+      desc: "Je ne traite pas les objections : j'empêche leur formation. Chaque doute est désamorcé à l'intérieur du flux narratif."
     }
   ];
 
@@ -39,9 +39,9 @@ const SolutionSection = () => {
             La Méthode
           </span>
           <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-3xl">
-            Je n'écris pas des scripts.
+            Je n'écris pas des scripts,
             <br />
-            <span className="text-gradient-gold italic">J'architecte des décisions.</span>
+            <span className="text-gradient-gold italic">je forge des décisions d'achat.</span>
           </h2>
         </motion.div>
 
