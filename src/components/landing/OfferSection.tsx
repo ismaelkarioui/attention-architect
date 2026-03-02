@@ -7,23 +7,23 @@ const OfferSection = () => {
         className="mb-20"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-      >
+        viewport={{ once: true }}>
+        
         <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">
           L'Offre
         </span>
-        <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">
-          Un prix unique. <span className="italic text-gradient-gold">Tout est pris en charge.</span>
+        <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">Prix unique, prise en charge de A à Z
+          <span className="italic text-gradient-gold">Tout est pris en charge.</span>
         </h2>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12">
         <motion.div
-        className="border border-primary/30 p-10 md:p-14 glow-gold relative"
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        >
+          className="border border-primary/30 p-10 md:p-14 glow-gold relative"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}>
+          
         <div className="absolute -top-4 left-10 bg-background px-4">
           <span className="font-mono text-xs tracking-widest uppercase text-primary">Livrable Principal</span>
         </div>
@@ -41,7 +41,7 @@ const OfferSection = () => {
           <span className="text-5xl font-serif font-bold text-gradient-gold">1 650 €</span>
           <span className="text-muted-foreground font-mono text-sm">HT</span>
         </div>
-        <p className="text-sm text-primary font-bold uppercase tracking-wider mb-2">
+        <p className="text-sm font-bold uppercase tracking-wider mb-2 text-destructive">
           ⚠️ Offre de lancement : 2 places restantes
         </p>
         <p className="text-xs text-muted-foreground">
@@ -50,12 +50,12 @@ const OfferSection = () => {
         </motion.div>
 
         <motion.div
-        className="space-y-6"
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ delay: 0.2 }}
-        >
+          className="space-y-6"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2 }}>
+          
         <div className="mb-4">
           <span className="font-mono text-xs tracking-widest uppercase text-muted-foreground">
             Bonus (Valeur totale des bonus 1250€)
@@ -74,8 +74,8 @@ const OfferSection = () => {
           {
             title: "Intégration Technique",
             desc: "J'installe votre VSL et votre landing page directement dans votre plateforme favorite de tunnel de vente (systeme.io, Clickfunnels, GoHighLevel, etc.)"
-          }
-        ].map((bonus, i) => (            <div key={i} className="border border-border p-6 hover:border-gold-dim transition-colors duration-300">
+          }].
+          map((bonus, i) => <div key={i} className="border border-border p-6 hover:border-gold-dim transition-colors duration-300">
               <div className="flex items-start gap-4">
                 <span className="font-mono text-primary text-sm mt-1">+</span>
                 <div>
@@ -84,15 +84,15 @@ const OfferSection = () => {
                 </div>
               </div>
             </div>
-          ))}
+          )}
 
           <p className="text-sm text-muted-foreground italic pt-4">
             Inclus sans surcoût. Pas des upsells. Pas du « offre limitée ». Ça fait partie du package.
           </p>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default OfferSection;

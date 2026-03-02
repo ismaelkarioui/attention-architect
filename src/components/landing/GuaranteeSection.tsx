@@ -9,21 +9,21 @@ const GuaranteeSection = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-8 block">
-            Transfert de Risque
+          viewport={{ once: true }}>
+          
+          <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-8 block">GARANTIE DE RETOUR SUR INVESTISSEMENT
+
           </span>
           
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">
-            Si ça ne se rembourse pas tout seul,
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">Si votre VSL ne se rembourse pas toute seul,
+vous ne payez rien.
             <br />
             <span className="italic text-gradient-gold">vous ne payez rien.</span>
           </h2>
 
           <div className="max-w-2xl mx-auto">
-            <p className="text-lg text-secondary-foreground leading-relaxed mb-8">
-              Vous déployez la VSL et lancez vos pubs. Si les revenus générés ne couvrent pas votre investissement de 1 650€ HT sans limite de temps, je vous rembourse intégralement.
+            <p className="text-lg text-secondary-foreground leading-relaxed mb-8">Vous déployez la VSL et lancez vos pubs. Si les revenus générés ne recouvrent pas votre investissement de 1 650€ HT, je vous rembourse intégralement. Garantie sans limite de durée.
+
             </p>
           </div>
 
@@ -34,8 +34,8 @@ const GuaranteeSection = () => {
           </div>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default GuaranteeSection;
