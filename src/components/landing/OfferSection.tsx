@@ -29,7 +29,7 @@ const OfferSection = () => {
           </div>
           
           <h3 className="text-3xl md:text-4xl font-serif font-bold mb-6">
-            Script VSL Haute Rétention
+            Architecture narrative RTC clé en main
           </h3>
           <p className="text-secondary-foreground leading-relaxed mb-8">
             Un script de vidéo de vente complet — recherché, structuré et écrit pour maintenir 
@@ -41,7 +41,10 @@ const OfferSection = () => {
             <span className="text-5xl font-serif font-bold text-gradient-gold">1 650 €</span>
             <span className="text-muted-foreground font-mono text-sm">HT / unique</span>
           </div>
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-primary font-bold uppercase tracking-wider mb-2">
+            ⚠️ Offre de lancement : 2 places restantes avant augmentation
+          </p>
+          <p className="text-xs text-muted-foreground">
             Pas d'abonnement. Pas de frais récurrents. Pas de dérive de périmètre.
           </p>
         </motion.div>
@@ -55,18 +58,18 @@ const OfferSection = () => {
         >
           <div className="mb-4">
             <span className="font-mono text-xs tracking-widest uppercase text-muted-foreground">
-              Bonus « Vous ne levez pas le petit doigt »
+              Bonus « Prise en charge complète » (Valeur 700€)
             </span>
           </div>
 
           {[
             {
-              title: "Slide Deck VSL Complet",
-              desc: "Designé, formaté, prêt à ouvrir et enregistrer. Fini les templates Canva vides qui vous fixent."
+              title: "Support visuel VSL complet",
+              desc: "Designé, formaté, prêt à ouvrir et enregistrer. Fini les templates vides qui vous fixent."
             },
             {
-              title: "Audit & Réécriture de Landing Page",
-              desc: "Je démonte la page où vit votre VSL et je reconstruis le copy autour. Parce qu'une bonne vidéo sur une mauvaise page, c'est du gâchis."
+              title: "Optimisation de la page de destination",
+              desc: "Je démonte la page de destination (landing page) qui va rediriger votre prospect vers votre VSL et j'optimise la copie pour installer la tension avant même qu'il ait commencé à la visionner."
             },
             {
               title: "Intégration Technique",
