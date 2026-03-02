@@ -28,8 +28,8 @@ const HeroSection = () => {
             
             <div className="line-gold w-32 mt-8 mb-6" />
             
-            <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed py-0 pb-[80px]">
-              Je bâtis des architectures de VSL qui scotchent leur regard et les qualifient un peu plus chaque minute jusqu'au CTA. Sans manipulation ni fausse urgence, grâce à une structure narrative chirurgicale.
+            <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed py-0 pb-[80px]">Je bâtis des architectures de VSL qui scotchent le regard de vos prospects et les préqualifient grâce à une structure narrative chirurgicale.
+
             </p>
           </motion.div>
         </div>
