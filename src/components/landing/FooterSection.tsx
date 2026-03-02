@@ -1,11 +1,11 @@
+import logoRtc from "@/assets/logo-rtc.png";
+
 const FooterSection = () => {
   return (
     <footer className="py-16 px-6 lg:px-12 border-t border-border">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
         <div>
-          <span className="font-mono text-sm tracking-[0.2em] uppercase text-primary">
-            RTC Copywriting
-          </span>
+          <img src={logoRtc} alt="RTC Copywriting" className="h-10 w-auto brightness-0 invert opacity-90" />
           <p className="text-sm text-muted-foreground mt-2">
             Architecture de conversion pour entrepreneurs sérieux.
           </p>

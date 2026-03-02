@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logoRtc from "@/assets/logo-rtc.png";
 
 const HeroSection = () => {
   return (
@@ -18,9 +19,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <div className="mb-8">
-              <span className="font-mono text-sm tracking-[0.3em] uppercase text-gold-dim">
-                RTC Copywriting
-              </span>
+              <img src={logoRtc} alt="RTC Copywriting" className="h-14 w-auto brightness-0 invert opacity-90" />
             </div>
             
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-900 leading-[0.9] tracking-tight mb-8">
