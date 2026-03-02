@@ -38,12 +38,27 @@ const GuaranteeSection = () => {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="flex justify-center"
           >
-            <img 
-              src="https://www.svgrepo.com/show/305267/money-back-guarantee.svg" 
-              alt="Garantie Satisfait ou Remboursé" 
-              className="w-32 h-32 md:w-40 md:h-40 opacity-80 filter brightness-0 invert"
-              style={{ filter: 'sepia(1) saturate(5) hue-rotate(10deg) brightness(0.8)' }} // Give it a gold-ish tint if needed, or just keep it simple
-            />
+            <svg 
+              width="160" 
+              height="160" 
+              viewBox="0 0 200 200" 
+              fill="none" 
+              xmlns="http://www.w3.org/2000/svg"
+              className="opacity-90 filter drop-shadow-lg"
+            >
+              <path d="M100 20L118.5 45H147L153 72.5L178 85V115L153 127.5L147 155H118.5L100 180L81.5 155H53L47 127.5L22 115V85L47 72.5L53 45H81.5L100 20Z" fill="url(#gold_gradient)" stroke="#D4AF37" strokeWidth="2"/>
+              <circle cx="100" cy="100" r="60" stroke="#D4AF37" strokeWidth="2" strokeDasharray="4 4"/>
+              <text x="100" y="90" textAnchor="middle" fill="#D4AF37" fontSize="14" fontWeight="bold" fontFamily="serif" letterSpacing="1">GARANTIE</text>
+              <text x="100" y="115" textAnchor="middle" fill="#D4AF37" fontSize="24" fontWeight="900" fontFamily="serif">100%</text>
+              <text x="100" y="135" textAnchor="middle" fill="#D4AF37" fontSize="12" fontWeight="bold" fontFamily="serif">REMBOURSEMENT</text>
+              <defs>
+                <linearGradient id="gold_gradient" x1="100" y1="20" x2="100" y2="180" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="#D4AF37" stopOpacity="0.1"/>
+                  <stop offset="0.5" stopColor="#D4AF37" stopOpacity="0.05"/>
+                  <stop offset="1" stopColor="#D4AF37" stopOpacity="0.1"/>
+                </linearGradient>
+              </defs>
+            </svg>
           </motion.div>
         </motion.div>
       </div>
