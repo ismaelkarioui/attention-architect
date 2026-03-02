@@ -41,9 +41,9 @@ const FAQSection = () => {
           <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">FAQ
 
           </span>
-          <h2 className="text-4xl md:text-5xl font-serif font-bold">
-            FAQ<br />
-            <span className="text-muted-foreground text-3xl md:text-4xl">Réponses aux questions fréquentes</span>
+          <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight">
+            Réponses aux<br />
+            <span className="text-muted-foreground text-3xl md:text-4xl">questions fréquentes</span>
           </h2>
         </motion.div>
 
