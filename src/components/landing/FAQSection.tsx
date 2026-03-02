@@ -42,8 +42,8 @@ const FAQSection = () => {
 
           </span>
           <h2 className="text-4xl md:text-5xl font-serif font-bold">
-            Vous lisez encore.<br />
-            <span className="text-muted-foreground text-3xl md:text-4xl">Voici probablement pourquoi.</span>
+            FAQ<br />
+            <span className="text-muted-foreground text-3xl md:text-4xl">Réponses aux questions fréquentes</span>
           </h2>
         </motion.div>
 
