@@ -38,15 +38,24 @@ const OfferSection = () => {
           </p>
 
           <div className="flex items-baseline gap-2 mb-2">
-            <span className="text-5xl font-serif font-bold text-gradient-gold">1 650 &euro;</span>
+            <span className="text-5xl font-serif font-bold text-gradient-gold">1 650 €</span>
             <span className="text-muted-foreground font-mono text-sm">HT</span>
           </div>
           <p className="text-sm font-bold uppercase tracking-wider mb-2 text-destructive">
             Offre de lancement : 2 places restantes
           </p>
-          <p className="text-xs text-muted-foreground">
+          <p className="text-xs text-muted-foreground mb-8">
             50% à la signature, 50% à la livraison. Aucuns frais supplémentaires.
           </p>
+
+          <a
+            href="https://cal.com/ismaelkarioui/diagnostic"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full text-center bg-primary text-primary-foreground font-mono text-sm tracking-wider uppercase py-4 px-8 hover:bg-gold-glow transition-all duration-300 glow-gold-sm"
+          >
+            Réserver mon architecture RTC →
+          </a>
         </motion.div>
 
         <motion.div
@@ -88,7 +97,7 @@ const OfferSection = () => {
           ))}
 
           <p className="text-sm text-muted-foreground italic pt-4">
-            Offerts à la livraison. Ces bonus ne sont disponibles qu'en profitant de cette offre limitée. Valeur cumulée : 1 250 &euro;.
+            Offerts à la livraison. Ces bonus ne sont disponibles qu'en profitant de cette offre limitée. Valeur cumulée : 1 250 €.
           </p>
         </motion.div>
       </div>
