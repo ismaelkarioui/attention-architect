@@ -12,7 +12,7 @@ const GuaranteeSection = () => {
           viewport={{ once: true }}
         >
           <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-8 block">
-            Assurance Profit
+            Transfert de Risque
           </span>
           
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">
@@ -23,9 +23,10 @@ const GuaranteeSection = () => {
 
           <div className="max-w-2xl mx-auto">
             <p className="text-lg text-secondary-foreground leading-relaxed mb-8">
-              Déployez la VSL. Lancez vos pubs. Suivez vos chiffres.
-              Si les ventes générées par cette vidéo ne couvrent pas l'investissement de 1 650 €, 
-              vous êtes remboursé intégralement. Chaque centime. Pas de formulaire. Pas de conditions cachées.
+              Déployez l'architecture. Lancez vos publicités. Si les revenus générés par la VSL 
+              ne couvrent pas l'investissement de 1 650 € HT, je vous rembourse intégralement. 
+              Sans discussion. Un partenaire qui ne produit pas de ROI ne mérite pas d'être payé. 
+              C'est aussi simple que ça.
             </p>
             
             <p className="text-foreground font-medium mb-12">
@@ -35,7 +36,7 @@ const GuaranteeSection = () => {
 
           <div className="inline-block border border-primary/30 px-8 py-4">
             <span className="font-mono text-sm text-primary tracking-wider">
-              100% REMBOURSÉ — PERFORMANCE GARANTIE
+              ROI GARANTI — TRANSFERT DE RISQUE TOTAL
             </span>
           </div>
         </motion.div>
