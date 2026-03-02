@@ -23,7 +23,7 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-900 leading-[0.9] tracking-tight mb-8">
-              Vous <span className="italic text-gradient-gold">brûlez du cash en pubs</span> à cause d'une VSL qui ne prédispose pas vos prospects à la conversion ?
+              Vous <span className="italic text-gradient-gold">brûlez du cash en publicité</span> à cause d'une VSL générique qui flingue votre acquisition ?
             </h1>
             
             <div className="line-gold w-32 mt-12 mb-8" />
