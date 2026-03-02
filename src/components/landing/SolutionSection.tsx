@@ -4,23 +4,23 @@ const SolutionSection = () => {
   const steps = [
     {
       num: "01",
-      title: "Architecture d'Accroche Psychologique",
-      desc: "J'ouvre avec un pattern interrupt calibré sur les frustrations exactes de votre marché. Pas une question générique. Une incision chirurgicale dans la pensée qui tourne en boucle dans la tête de votre prospect à 2h du matin."
+      title: "Diagnostic de l'Attention Fracturée",
+      desc: "On n'accroche pas un prospect sophistiqué avec une question de curiosité générique. On l'accroche en lui montrant qu'on a diagnostiqué son problème plus précisément que lui. Une incision chirurgicale dans sa réalité immédiate."
     },
     {
       num: "02",
-      title: "Moteur de Tension Narrative",
-      desc: "Chaque phrase mérite la suivante. Je construis des boucles de curiosité, j'ouvre des fils narratifs et je déploie des micro-engagements qui rendent votre spectateur investi avant même qu'il ne s'en rende compte."
+      title: "Architecture de Rétention Totale",
+      desc: "Chaque seconde de silence ou de remplissage est une porte de sortie. Je construis des structures à haute tension narrative où l'abandon devient une perte de temps pour le spectateur, pas pour vous. Chaque mot mérite le suivant."
     },
     {
       num: "03",
-      title: "Révélation du Mécanisme",
-      desc: "Votre offre n'est pas présentée. Elle est découverte. J'ingénierie le moment « eurêka » pour que le prospect ait le sentiment que la décision d'achat vient de lui. Parce que c'est le cas. Je l'ai juste rendue inévitable."
+      title: "Ingénierie du Moment « Eurêka »",
+      desc: "Votre offre n'est pas présentée — elle est découverte comme la seule solution logique. J'orchestre le moment de bascule psychologique où le prospect a le sentiment que la décision vient de lui. Parce que c'est le cas."
     },
     {
       num: "04",
-      title: "Dissolution des Objections",
-      desc: "Je ne traite pas les objections — j'empêche leur formation. Chaque doute est désamorcé à l'intérieur du flux narratif, pour que le CTA ressemble à un soulagement, pas à une pression."
+      title: "Dissolution des barrières mentales",
+      desc: "Je ne traite pas les objections : j'empêche leur formation. Chaque doute est désamorcé à l'intérieur du flux narratif pour que l'action finale ressemble à un soulagement, pas à une pression."
     }
   ];
 
