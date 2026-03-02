@@ -39,10 +39,9 @@ const GuaranteeSection = () => {
             className="flex justify-center"
           >
             <img 
-              src="https://images.unsplash.com/photo-1589519160732-57fc498494f8?q=80&w=200&auto=format&fit=crop" 
-              alt="Sceau de Garantie Premium" 
-              className="w-32 h-32 md:w-40 md:h-40 object-contain mix-blend-lighten brightness-110 contrast-125"
-              style={{ filter: 'drop-shadow(0 0 15px rgba(212, 175, 55, 0.3))' }}
+              src="https://cdn.shopify.com/s/files/1/0505/4500/0617/files/Satisfat_1_600x600.png" 
+              alt="Garantie Satisfait ou Remboursé" 
+              className="w-32 h-32 md:w-40 md:h-40 object-contain"
             />
           </motion.div>
         </motion.div>
