@@ -10,7 +10,7 @@ const HeroSection = () => {
         backgroundSize: '60px 60px'
       }} />
       
-      <div className="relative w-full max-w-7xl mx-auto px-6 lg:px-12 py-[100px]">
+      <div className="relative w-full max-w-7xl mx-auto px-6 lg:px-12 py-[70px]">
         <div className="grid lg:grid-cols-12 gap-12 items-end">
           <motion.div
             className="lg:col-span-8"
