@@ -42,7 +42,7 @@ const GuaranteeSection = () => {
             <img 
               src={garantieImg} 
               alt="Garantie Satisfait ou Remboursé" 
-              className="w-48 h-48 md:w-64 md:h-64 object-contain"
+              className="w-72 h-72 md:w-96 md:h-96 object-contain"
             />
           </motion.div>
         </motion.div>
