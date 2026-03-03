@@ -5,6 +5,7 @@ import OfferSection from "@/components/landing/OfferSection";
 import GuaranteeSection from "@/components/landing/GuaranteeSection";
 import CTASection from "@/components/landing/CTASection";
 import FAQSection from "@/components/landing/FAQSection";
+import FinalCTASection from "@/components/landing/FinalCTASection";
 import FooterSection from "@/components/landing/FooterSection";
 
 const Index = () => {
@@ -17,6 +18,7 @@ const Index = () => {
       <GuaranteeSection />
       <CTASection />
       <FAQSection />
+      <FinalCTASection />
       <FooterSection />
     </main>
   );
